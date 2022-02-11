@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about us</title>
+</head>
+<body>
+    <style>
+        .project{
+           background-image: url(https://cdn.pixabay.com/photo/2017/08/06/22/08/building-2596864_960_720.jpg);
+            background-repeat: repeat;
+           
+            color:white;
+        }
+        h1{
+            font-size:xx-large;
+            font-family:cursive;
+            font-weight: bolder;
+            
+            text-align:center;
+            
+            color:beige;
+        }
+        p{
+            margin-left: 30px;
+            margin-right: 30px;
+            color:white;
+            opacity:0.9;
+            font-family:cursive;
+            text-align:center;
+        }
+        .course{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .contact  {
+           display: grid;
+           justify-content: center;
+         display: flex ;
+             gap: 9%;
+             background:linear-gradient(160deg,rgb(196, 230, 102),rgb(55, 231, 172));
+             padding:10px;
+         }
+         .header-row ol li{
+             
+             display:inline;
+             justify-content: left;
+             float:right;
+             font-size:x-large;  
+             padding-top: 20px;
+             
+       
+         }
+         
+         
+         .header-row ol a{
+             list-style: none;
+             color:antiquewhite;
+             text-decoration: none;
+             font-weight: bolder;
+             background-position: 100%;
+             position:static;
+         }
+         .header-row ol li a:hover{
+              color:floralwhite;
+              text-transform: uppercase;
+            display: inline-block ;         
+         }
+
+         .contact .reach_us b{
+                       font-size:x-large;
+                       gap:7%;
+                }
+                .contact .reach_us span{
+                       font-size:larger;
+                }
+            .who h2{
+                padding-top:10px;
+                text-align: center;
+                font-family: 'IM Fell Double Pica', serif;
+           font-family: 'Shizuru', cursive;
+            font-family: 'Work Sans', sans-serif;
+                font-size: xx-large;}
+                .who p{
+                    font-family:cursive;
+                    padding:20px;
+                    margin-left:80px;
+                    margin-right:50px;
+                }
+                .who{
+                     background-color: black;
+                   color:linen;
+                  
+                }
+                 
+    </style>
+   
+    
+    
+    
+    <div class="project" >
+        <div class="header-row">
+            <ol><li><a href="./aboutus">about us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+              <li><a href="./contact">contact us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+              <li><a href=".course"> our courses</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                <li><a th:href="@{'/adminindex'}"><span class="material-icons">home</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li> 
+          </ol>
+              </div>
+ <h1> <br> PLACEMENT MANAGEMENT SYSTEM</h1><br>
+ <p>  The purpose of the project “WEB BASED PLACEMENT
+    MANAGEMENT SYSTEM”, the manual work makes the
+    process slow and other problems such as inconsistency and
+    ambiguity on operations. In order to avoid this web based
+    placement managed system is proposed, where the student
+    information in the college with regard to placement is
+    managed efficiently. It intends to help fast in fast access
+    procedures in placement related activities and ensures to
+    maintain the details of the student. Students logging should
+    be able to upload their personal and educational information.</p>
+    <p>The existing system describes the features of the
+        previous working model and their drawback. Existing
+        system does all process manually. Placement officers
+        register the information of students. If any modifications or
+        updates are required in the profile of any student, it has to be done manually. This is tedious and time consuming, lack
+        of security of data, took more man power, consumes large
+        volume of paper and space. This process is so difficult
+        when number of user’s increases. 
+        </p> <p>
+        The project is aimed at developing an application
+        for the “WEB BASED PLACEMENT MANAGEMENT
+        SYSTEM” of the college. The system is an application that can
+        be accessed and effectively used throughout the organization
+        with proper login enabled. This system can be used as an
+        application for the Placement Officers in the college to manage
+        the student information with regard to placement. Student
+        logging should be able to upload their personal and
+        educational information.</p><br><br> <br></div>
+        
+        <h1 style="background-color: darkviolet;color:white; "> <br> Explore course   <br><br> </h1>
+        <div class="course" style="display:inline-flex;margin-left: 60px; text-align: center;text-decoration: none;" >
+        <div class="data">
+            <img src="https://s3.ap-south-1.amazonaws.com/cdn.edubridgeindia.com/images/courses/thumbnails/991.jpg" alt="Data Analytics"><br>
+            <b>data analytics</b><br><a href="https://www.edubridgeindia.com/search">click Here</a></div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="java">
+            <img src="https://s3.ap-south-1.amazonaws.com/cdn.edubridgeindia.com/images/courses/thumbnails/992.jpg" alt="java Full Stack Development"><br>
+           <b>Java Full Stack Development</b><br><a href="https://www.edubridgeindia.com/search">click Here</a>
+        </div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="bank">
+            <img src="https://s3.ap-south-1.amazonaws.com/cdn.edubridgeindia.com/images/courses/thumbnails/964.jpg" alt="Investment Banking Operation"><br>
+           <b>Investment Banking Operation</b><br><a href="https://www.edubridgeindia.com/search">click Here</a>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="bank">
+            <img src="https://s3.ap-south-1.amazonaws.com/cdn.edubridgeindia.com/images/courses/thumbnails/981.jpg" alt="java Full Stack Development"><br>
+           <b>Bussiness Intelligence</b><br><a href="https://www.edubridgeindia.com/search">click Here</a>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="more">
+            <img src="https://www.svgrepo.com/show/144750/right-arrow-button.svg" alt="Bussiness Intelligence" width="150px" height="180px">
+          <br><a href="https://www.edubridgeindia.com/search">More</a>
+        </div>
+    
+    </div><br>
+   <h1 style="background-color:darkcyan;font-family:cursive;"><br>Connect With Us<br><br></h1>
+    <div class="contact" >
+        <div class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.661160635628!2d77.57032131484914!3d12.929486119299261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae158529fda579%3A0xdf3353a58b6d4650!2sEduBridge%20Learning%20-%20Bengaluru!5e0!3m2!1sen!2sin!4v1644575596801!5m2!1sen!2sin" width="570" height="400" style="border:solid wheat;" allowfullscreen="" loading="lazy"></iframe>
+           
+        </div>
+
+        <div class="reach_us"><br><br>
+            <i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;&nbsp;<b>Location</b><br><br>
+            <span>#401, Kushwah Chambers, 702 Makwana Rd ,Gamdevi,<br> Marol  Andheri (E), Mumbai-59</span><br><br>
+             <br><br><br>
+             <i class="fa-thin fa-square-phone"></i>&nbsp;&nbsp;&nbsp;<b>Toll free number</b><br><br>
+            <span>1800 120 1193</span><br><br><br><br>
+            <i class="fa-regular fa-envelope"></i>&nbsp;&nbsp;&nbsp;<b>Email</b><br><span>wecare@edubridgeindia.com</span><br>
+        </div>
+    </div>      
+    <div class="who">
+        <h2><br> who we are <hr></h2><br>
+        
+        <p>EduBridge is India's leading Workforce Development Platform that helps learners in building careers with leading corporates through training & other career building services.
+
+            EduBridge is an Integrated Workforce Development Organization started by IIM alumni & professors in October 2009, EduBridge impacts the entire Career Development life cycle of the unemployed youth of the country. We help the unemployed youth to understand their strengths, build tomorrow’s skills needed by recruiters and secure employment with them, thereby building sustainable careers for our beneficiaries.
+            
+            With more than a decade of experience, we have trained over 150,000 youth and placed around 100,000 learners in more than 300 companies across the country. We have an offline presence across 18 states, extensive local networks & ecosystems, tried and tested tech architecture and strong relationships with recruiters, corporate and the youth; we have grown our online business as an Integrated Workforce Development Platform for the youth‘s journey from a learner to a productive member of the workforce.
+        </p><br><br><br><br>
+            
+
+    </div>
+</body>
+</html>
